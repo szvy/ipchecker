@@ -1,6 +1,6 @@
 # ip checker
 
-a discord bot that will see if a message has an A record of an ip you set, or a cname record (use this on ubg sites)
+a discord bot that will see if a message has an A record of an ip you set, or a CNAME record (use this on ubg sites)
 
 
 ### prerequisites
