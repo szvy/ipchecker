@@ -1,0 +1,15 @@
+{
+  "name": "ipcheckerbot",
+  "version": "1.0.0",
+  "description": "discord bot that checks if the message has the ip that you specify",
+  "main": "index.js",
+  "scripts": {
+	  "start": "node index.js"
+  },
+  "author": "szvy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "discord.js": "^14.18.0"
+  }
+}
