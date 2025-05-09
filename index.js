@@ -95,15 +95,4 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-client.on("messageUpdate", async (oldMessage, newMessage) => {
-  if (newMessage.author.bot || newMessage.author.id === ownerid) return;
-  
-  try {
-    await newMessage.delete();
-    console.log(`deleted edited message from ${newMessage.author.tag}`);
-  } catch (error) {
-    console.error(`failed to delete edited message: ${error.message}`);
-  }
-});
-
 client.login(token);
